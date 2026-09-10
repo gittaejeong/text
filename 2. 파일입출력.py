@@ -144,3 +144,5 @@ print("경로 :", 경로)
 
 with open("ranking.txt", "a", encoding="utf-8") as file:
     file.write(f"name,count\n")
+
+# 파일이 없다고 오류가 나지 않음(a를 썼을 때)
